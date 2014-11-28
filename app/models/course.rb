@@ -4,6 +4,4 @@ class Course < ActiveRecord::Base
 	has_many :student
 	belongs_to :grade
 
-	validates_associated :grade
-
 end
