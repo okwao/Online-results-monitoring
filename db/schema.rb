@@ -11,12 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141126112417) do
+ActiveRecord::Schema.define(version: 20141128094703) do
 
   create_table "courses", force: true do |t|
     t.string   "course_name"
-    t.integer  "teacher_iden"
-    t.integer  "grade_iden"
+    t.integer  "teacher_id"
+    t.integer  "grade_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -28,8 +28,8 @@ ActiveRecord::Schema.define(version: 20141126112417) do
   end
 
   create_table "results", force: true do |t|
-    t.integer  "student_iden"
-    t.integer  "course_iden"
+    t.integer  "student_id"
+    t.integer  "course_id"
     t.integer  "marks"
     t.datetime "created_at"
     t.datetime "updated_at"

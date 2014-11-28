@@ -3,4 +3,7 @@ class Student < ActiveRecord::Base
 
 	has_many :courses
 	has_one :grade
+	has_many :results
+
+	validates_associated :courses :results
 end
