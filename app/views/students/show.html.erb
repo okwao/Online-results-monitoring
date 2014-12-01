@@ -28,8 +28,8 @@
 <table class="table table-striped" style="margin-top:30px;">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
-      <th><%= model_class.human_attribute_name(:student_id) %></th>
+    <!--  <th><%= model_class.human_attribute_name(:id) %></th> -->
+    <!--  <th><%= model_class.human_attribute_name(:student_id) %></th> -->
       <th><%= model_class.human_attribute_name(:course_id) %></th>
       <th><%= model_class.human_attribute_name(:marks) %></th>
     </tr>
@@ -37,8 +37,8 @@
   <tbody>
     <% @results.each do |result| %>
       <tr>
-        <td><%= result.id %></td>
-        <td><%= result.student.full_name %></td>
+      <!--  <td><%= result.id %></td> -->
+      <!--  <td><%= result.student.full_name %></td> -->
         <td><%= result.course.course_name %></td>
         <td><%= result.marks %></td>
       </tr>
