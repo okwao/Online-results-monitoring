@@ -22,8 +22,15 @@
 }
 #botton{
 	display: inline;
+	font-size: 14px
 }
 .container{
 	padding-left: 0px;
 	padding-right: 0px;
+}
+a{
+	font-size: 18px;
+}
+td{
+	font-size: 15px;
 }
