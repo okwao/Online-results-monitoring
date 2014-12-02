@@ -4,5 +4,4 @@ class Course < ActiveRecord::Base
 	has_many :students, through: :results
 	has_many :results
 	belongs_to :grade
-
 end

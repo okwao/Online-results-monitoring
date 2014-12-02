@@ -1,3 +1,27 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	background-image:url(image_path('slider_bg.jpg'));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 2000px;
+
+}
+.one {
+    text-align: center;
+	font-size: 80px;
+	margin-top: 10px;
+}
+.two{
+	font-size: 50px;
+	text-align: center;
+}
+thead{
+	font-size: 20x;
+}
+tbody{
+	font-size: 15px;
+}
